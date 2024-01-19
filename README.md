@@ -34,7 +34,7 @@ Create some sample file shares with various permissions
 
 **4.**
 
-**5. Give Domain users Read permisssion to "read-access" folder**
+**5. Give Domain Users Read permisssion to "read-access" folder**
  - In DC-1 --> Right click read-access folder --> Properties --> Sharing --> Share
    
  <img src="https://i.imgur.com/6eUcXES.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
@@ -43,8 +43,14 @@ Create some sample file shares with various permissions
 
   <img src="https://i.imgur.com/3En5uUi.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**6. Give Domain users Read/Write permission to "write-access" folder**
+**6. Give Domain Users Read/Write permissions to "write-access" folder**
  - Right click the "write-access" folder --> Properties --> Sharing --> Share --> Type domain users --> Add --> Under Permission Level select Read/Write --> Share --> Done
 
    <img src="https://i.imgur.com/IgvXPFH.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+**7. Give Domain Admins Read/Write permissions to "no-access" folder**
+ - Right click the "no-access" folder --> Properties --> Sharing --> Share --> Type Domain admins --> Add --> Under Permission Level select Read/Write --> Share --> Done
+
+<img src="https://i.imgur.com/dDuPpFu.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
 
