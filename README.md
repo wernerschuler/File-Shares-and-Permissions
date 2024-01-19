@@ -27,5 +27,7 @@ Create some sample file shares with various permissions
 
   <img src="https://i.imgur.com/ADa1rMt.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**3. On DC-1, in C:, create 4 folders: “read-access”, “write-access”, “no-access”, "IT Support"**
- - In DC-1 --> File Explorer --> This PC --> C: 
+**3. In DC-1, in C:, create 4 folders: “read-access”, “write-access”, “no-access”, "IT Support"**
+ - In DC-1 --> File Explorer --> This PC --> C: --> Right click --> New --> Enter name of folder
+
+  <img src="https://i.imgur.com/k3bWZ3w.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
