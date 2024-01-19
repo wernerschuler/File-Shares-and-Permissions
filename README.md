@@ -53,4 +53,16 @@ Create some sample file shares with various permissions
 
 <img src="https://i.imgur.com/dDuPpFu.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
+**8. For now skip the IT-Support folder**
+
+**9. On Client-1, go to the share folder (dc-1)**
+ - Go to Client-1 --> File explorer --> Enter in the search bar \\\dc-1
+
+<img src="https://i.imgur.com/uPbOZWW.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+   
+
+
+
+
+
 
