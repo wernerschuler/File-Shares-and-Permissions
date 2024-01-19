@@ -72,6 +72,18 @@ Create some sample file shares with various permissions
 - In the "write-access" folder you can access this folder and create a folder inside of it
 
   <img src="https://i.imgur.com/VU1Ejli.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+**11. Go to DC-1, create a security group in Active Directory called "IT-SUPPORT"**
+ - In DC-1 --> Start --> Active Directory Users and Computers --> mydomain.com --> Right click --> New --> Organizational Unit
+ - Name: _SECURITY_GROUPs
+ - Refresh your domain:
+   - Right click your domain --> Refresh
+  - In _SECURITY_GROUPS --> Right click --> New --> Group
+     - Group name: IT-SUPPORT
+     - Group type: Security
+  - OK
+
+<img src="https://i.imgur.com/kBDUQ3e.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
   
 
      
