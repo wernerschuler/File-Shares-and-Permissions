@@ -31,3 +31,9 @@ Create some sample file shares with various permissions
  - In DC-1 --> File Explorer --> This PC --> C: --> Right click --> New --> Enter name of folder
 
   <img src="https://i.imgur.com/k3bWZ3w.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+**4.**
+
+**5. Give Domain users read permisssion to "read-access" folder**
+ - In DC-1 --> Right click read-access folder --> Properties --> Sharing --> Share --> Type domain users --> Add
+
