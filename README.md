@@ -96,6 +96,12 @@ Create some sample file shares with various permissions
 
 <img src="https://i.imgur.com/koALC2R.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
+**14. Make your user a member of the IT-SUPPORT Security Group**
+ - In DC-1 --> Active Directory Users and Computers --> _SECURITY_GROUPS --> IT-SUPPORT
+ - Members --> Add --> Add the name of your user --> Check Names --> OK --> Apply --> OK
+
+<img src="https://i.imgur.com/XBWNkHS.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
   
 
      
