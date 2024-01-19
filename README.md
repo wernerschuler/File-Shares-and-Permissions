@@ -6,8 +6,6 @@ Have the following setup:
 - Active Directory running in Azure on a virtual machine (DC-1)
 - A client machine running in Azure on a virtual machine (Client-1) and joined to the domain
 
-Create some sample file shares with various permissions
---
 **1. Connect to DC-1 as your domain admin account**
  - Go to portal.azure.com --> Virtual machines --> DC-1 --> Copy the public IP address
  - Start --> Search 'Remote Desktop Connection'
@@ -104,7 +102,7 @@ Create some sample file shares with various permissions
 
 **15. Logoff and log back into Client-1 as your user and try to access the "IT-Support" folder**
  - File Explorer --> Enter \\dc-1 into the File Explorer search bar --> IT-Support
- - You will not have access to this folder
+ - You will not have access to the IT-Support folder
    
 
 
