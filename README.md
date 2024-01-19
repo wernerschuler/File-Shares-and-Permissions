@@ -84,6 +84,13 @@ Create some sample file shares with various permissions
   - OK
 
 <img src="https://i.imgur.com/kBDUQ3e.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+**12. On the "IT-Support" folder set the permissions, Group: "IT-SUPPORT", Permissions: Read/Write**
+ - In DC-1 --> File explorer --> C: --> Right click the "IT-Support" folder
+ - Sharing --> Share --> Enter IT-SUPPORT --> Add --> Below Permission Level select Read/Write --> Share --> Done
+
+<img src="https://i.imgur.com/yfe8BLC.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
   
 
      
