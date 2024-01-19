@@ -17,7 +17,7 @@ Create some sample file shares with various permissions
    <img src="https://i.imgur.com/qeaKw85.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 **2. Connect into Client-1 as a normal user**
-- From the Active Directory installation task, some random users should have been generated
+- From the Active Directory installation task, some random users have been generated
 - In DC-1 --> Start --> Enter Active Directory Users and Computers --> mydomain.com --> _EMPLOYEES
 - Select a user you would like to use to login to Client-1
 - Connect to Client-1 using Remote Desktop Connection
