@@ -33,9 +33,7 @@ Steps
 
   <img src="https://i.imgur.com/k3bWZ3w.png" height="60%" width="60%" alt="C: Drive"/>
 
-**4.**
-
-**5. Give Domain Users Read permisssion to "read-access" folder**
+**4. Give Domain Users Read permisssion to "read-access" folder**
  - In DC-1 --> Right click read-access folder --> Properties --> Sharing --> Share
    
  <img src="https://i.imgur.com/6eUcXES.png" height="60%" width="60%" alt="Folder sharing"/>
@@ -44,24 +42,24 @@ Steps
 
   <img src="https://i.imgur.com/3En5uUi.png" height="60%" width="60%" alt=""/>
 
-**6. Give Domain Users Read/Write permissions to "write-access" folder**
+**5. Give Domain Users Read/Write permissions to "write-access" folder**
  - Right click the "write-access" folder --> Properties --> Sharing --> Share --> Type domain users --> Add --> Under Permission Level select Read/Write --> Share --> Done
 
    <img src="https://i.imgur.com/IgvXPFH.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**7. Give Domain Admins Read/Write permissions to "no-access" folder**
+**6. Give Domain Admins Read/Write permissions to "no-access" folder**
  - Right click the "no-access" folder --> Properties --> Sharing --> Share --> Type Domain admins --> Add --> Under Permission Level select Read/Write --> Share --> Done
 
 <img src="https://i.imgur.com/dDuPpFu.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**8. For now skip the IT-Support folder**
+**7. For now skip the IT-Support folder**
 
-**9. On Client-1, go to the share folder (dc-1)**
+**8. On Client-1, go to the share folder (dc-1)**
  - Go to Client-1 --> File explorer --> Enter in the search bar \\\dc-1
 
 <img src="https://i.imgur.com/uPbOZWW.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**10. Try to access the folders you created**
+**9. Try to access the folders you created**
  - You should not be able to access the "no-access" folder. A message like the image below should appear
 
 <img src="https://i.imgur.com/V5KfrOB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
@@ -74,7 +72,7 @@ Steps
 
   <img src="https://i.imgur.com/VU1Ejli.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**11. Go to DC-1, create a security group in Active Directory called "IT-SUPPORT"**
+**10. Go to DC-1, create a security group in Active Directory called "IT-SUPPORT"**
  - In DC-1 --> Start --> Active Directory Users and Computers --> mydomain.com --> Right click --> New --> Organizational Unit
  - Name: _SECURITY_GROUPs
  - Refresh your domain:
@@ -86,24 +84,24 @@ Steps
 
 <img src="https://i.imgur.com/kBDUQ3e.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**12. On the "IT-Support" folder set the permissions, Group: "IT-SUPPORT", Permissions: Read/Write**
+**11. On the "IT-Support" folder set the permissions, Group: "IT-SUPPORT", Permissions: Read/Write**
  - In DC-1 --> File explorer --> C: --> Right click the "IT-Support" folder
  - Sharing --> Share --> Enter IT-SUPPORT --> Add --> Below Permission Level select Read/Write --> Share --> Done
 
 <img src="https://i.imgur.com/yfe8BLC.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**13. On Client-1 try to access the "IT-Support" folder. It should fail**
+**12. On Client-1 try to access the "IT-Support" folder. It should fail**
  - File explorer --> Enter \\dc-1 in the search bar --> IT-Support
 
 <img src="https://i.imgur.com/koALC2R.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**14. Make your user a member of the IT-SUPPORT Security Group**
+**13. Make your user a member of the IT-SUPPORT Security Group**
  - In DC-1 --> Active Directory Users and Computers --> _SECURITY_GROUPS --> IT-SUPPORT
  - Members --> Add --> Add the name of your user --> Check Names --> OK --> Apply --> OK
 
 <img src="https://i.imgur.com/XBWNkHS.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-**15. Logoff and log back into Client-1 as your user and try to access the "IT-Support" folder**
+**14. Logoff and log back into Client-1 as your user and try to access the "IT-Support" folder**
  - File Explorer --> Enter \\dc-1 into the File Explorer search bar --> IT-Support
  - You will not have access to the IT-Support folder
    
