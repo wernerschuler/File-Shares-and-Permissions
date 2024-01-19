@@ -59,6 +59,11 @@ Create some sample file shares with various permissions
  - Go to Client-1 --> File explorer --> Enter in the search bar \\\dc-1
 
 <img src="https://i.imgur.com/uPbOZWW.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+**10. Try to access the folders you created**
+ - You should not be able to access the "no-access" folder. A message like the image below should appear
+
+<img src="https://i.imgur.com/V5KfrOB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
    
 
 
