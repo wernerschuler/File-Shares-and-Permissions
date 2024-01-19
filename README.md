@@ -64,6 +64,17 @@ Create some sample file shares with various permissions
  - You should not be able to access the "no-access" folder. A message like the image below should appear
 
 <img src="https://i.imgur.com/V5KfrOB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+ - You can access the "read-access" folder, but you cannot create anything inside of it
+
+<img src="https://i.imgur.com/v6P3PeP.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+- In the "write-access" folder you can access this folder and create a folder inside of it
+
+  <img src="https://i.imgur.com/VU1Ejli.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+  
+
+     
    
 
 
