@@ -91,6 +91,11 @@ Create some sample file shares with various permissions
 
 <img src="https://i.imgur.com/yfe8BLC.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
+**13. On Client-1 try to access the "IT-Support" folder. It should fail**
+ - File explorer --> Enter \\dc-1 in the search bar --> IT-Support
+
+<img src="https://i.imgur.com/koALC2R.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
   
 
      
