@@ -3,6 +3,8 @@
 </p>
 
 <h1>File Shares and Permissions</h1>
+This tutorial outlines sharing resources over a network and creating file shares to allow individuals or groups to have a certain level of access to resources.
+
 
 Requirements
 -- 
