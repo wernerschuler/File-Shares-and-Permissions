@@ -1,4 +1,8 @@
-# File-Shares-and-Permissions
+<p align="center">
+<img src="https://i.imgur.com/5Jn8hrX.png" alt="File share symbol"/>
+</p>
+
+<h1>File Shares and Permissions</h1>
 
 Requirements
 -- 
